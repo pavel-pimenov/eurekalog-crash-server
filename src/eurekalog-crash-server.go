@@ -48,9 +48,6 @@ func main() {
 	log.SetOutput(mw)
 	http.HandleFunc("/upload", uploadHandler)
 	http.ListenAndServe(":5050", nil)
-	go func() {
-		time.Sleep(time.Millisecond * 1000)
-	}()
 }
 
 // TODO - linux
