@@ -6,7 +6,6 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"time"
 )
 
 func uploadHandler(w http.ResponseWriter, r *http.Request) {

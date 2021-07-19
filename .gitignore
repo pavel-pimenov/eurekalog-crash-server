@@ -3,3 +3,4 @@
 debug
 eurekalog-server-linux-x64
 eurekalog-server-win32.exe
+/src/log/eurekalog-server.log
